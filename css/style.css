@@ -1,0 +1,87 @@
+@charset "utf-8";
+/* CSS Document */
+html{
+height: 100%;
+}
+body{
+	height: 100%;
+}
+.icon{
+	margin-left: 40px;
+}
+#top{
+	background-image: url(../img/desktop-wallpaper-vintage-cool-picture.jpg);
+	height: 800px;
+	background-size: cover;
+	display: flex;
+	flex-direction: colum;
+	justify-content: center;
+	align-items: center;
+}
+.over{
+		height: 100%;
+	width: 150%;
+	background-color: black;
+	opacity:0.5;
+}
+
+#top h2{
+	color: white;
+	font-family: Baskerville, Palatino Linotype, Palatino, Century Schoolbook L, Times New Roman, serif;
+	font-size: 60px;
+}
+#top p{
+	color: white;
+	font-size: 20px;
+	font-family: Segoe, Segoe UI, DejaVu Sans, Trebuchet MS, Verdana," sans-serif";
+	padding-right: 70px;
+}
+.entry{
+margin-right: 80px;
+margin-left: 90px;
+
+	
+	
+}
+.form-group{
+border-radius: 20px; 		
+}
+.btn{
+	border-radius: 8px;
+	font-family: sans-serif;
+	color: peru;
+	border:solid peru 2px;
+	text-transform: uppercase;
+	margin-right: 60px;
+}
+.btn:hover{
+	color:white;
+	
+}
+
+
+.icon-bar a:hover{
+	color: #160A0A;
+	
+}
+.icon-bar a{
+	color:white;
+	padding-left: 80px;
+	
+}
+@media screen and (max-width:768px){
+#top h2{
+		font-size: 250%;
+	}
+	#top p{
+		font-size: 120%;
+	}
+	.entry{
+		margin-left: 5%;
+		margin-right: 5%;
+	}
+	.icon-bar a{
+	padding-left: 20%;	
+	}	
+	
+}
